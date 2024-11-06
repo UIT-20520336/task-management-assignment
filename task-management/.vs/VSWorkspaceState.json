@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\models",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\login-page",
+    "\\src\\app\\pages\\signup-page",
+    "\\src\\app\\pages\\task-view",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\pages\\login-page\\login-page.component.ts",
+  "PreviewInSolutionExplorer": false
+}

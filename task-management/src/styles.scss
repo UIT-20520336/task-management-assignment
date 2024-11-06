@@ -1,0 +1,21 @@
+@import '../node_modules/bulma/bulma';
+
+html {
+    background: linear-gradient(to right top, blue, green);
+}
+html, body{
+    height: 100%;
+}
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}

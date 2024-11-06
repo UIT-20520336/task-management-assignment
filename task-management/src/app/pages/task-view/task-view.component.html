@@ -1,0 +1,63 @@
+<div class="centered-content">
+  <div class="task-manager-container">
+    <div class="sidebar">
+      <h1 class="title">
+        TO DO LIST
+      </h1>
+      <div class="list-menu">
+        <a class="list-menu-item">
+          <p>Dashboard</p>
+
+        </a>
+        <a class="list-menu-item" (click)="logout()">
+          <p>Log out</p>
+        </a>
+      </div>
+    </div>
+    <div class="tasks-list-container">
+      <h1 class="title">
+        Tasks
+      </h1>
+      <select id="filter" (change)="onFilterChange($event)">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+      </select>
+      <!-- Task Elements -->
+      <ul>
+        <li class="task" *ngFor="let task of filteredTasks">
+          <input type="checkbox" [checked]="task.isCompleted" (change)="toggleTaskStatus(task)">
+          <span [ngClass]="{'completed':task.isCompleted}" (click)="toggleTaskStatus(task)">{{ task.title }} - {{ task.description }}</span>
+          <div class="task-button">
+            <button class=" has-text-danger	" (click)="deleteTask(task.id)"> Delete</button>
+            <button class="has-text-info" (click)="openEditModal(task)">Edit</button>
+          </div>
+        </li>
+      </ul>
+
+      <button class="add-button button is-rounded" (click)="createNewTask()">New</button>
+      <!--Edit Task Popup-->
+      <div *ngIf="editModalOpen" class="modal">
+        <div class="modal-content">
+          <h3>Edit Task</h3>
+          <form (ngSubmit)="submitEdit()">
+            <label>
+              Title:
+              <input type="text" [(ngModel)]="editTaskData.title" name="title" required />
+            </label>
+            <label>
+              Description:
+              <input type="text" [(ngModel)]="editTaskData.description" name="description" />
+            </label>
+            <label>
+              Completed:
+              <input type="checkbox" [(ngModel)]="editTaskData.isCompleted" name="isCompleted" />
+            </label>
+            <button class="has-text-info" type="submit">Save</button>
+            <button type="button" (click)="closeEditModal()">Cancel</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
