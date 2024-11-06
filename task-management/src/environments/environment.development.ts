@@ -1,3 +1,4 @@
 export const environment = {
-  apiBaseUrl: 'https://webapi20241107004245.azurewebsites.net/api'
+  production: false,
+  apiBaseUrl: 'http://localhost:5063/api'
 };
