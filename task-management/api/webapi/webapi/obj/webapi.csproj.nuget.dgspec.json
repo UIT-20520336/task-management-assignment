@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trung\\OneDrive\\Desktop\\task-management\\api\\webapi\\webapi\\webapi.csproj": {}
+    "H:\\trung\\Git\\task-management-assignment\\task-management\\api\\webapi\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trung\\OneDrive\\Desktop\\task-management\\api\\webapi\\webapi\\webapi.csproj": {
+    "H:\\trung\\Git\\task-management-assignment\\task-management\\api\\webapi\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trung\\OneDrive\\Desktop\\task-management\\api\\webapi\\webapi\\webapi.csproj",
+        "projectUniqueName": "H:\\trung\\Git\\task-management-assignment\\task-management\\api\\webapi\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\trung\\OneDrive\\Desktop\\task-management\\api\\webapi\\webapi\\webapi.csproj",
+        "projectPath": "H:\\trung\\Git\\task-management-assignment\\task-management\\api\\webapi\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trung\\OneDrive\\Desktop\\task-management\\api\\webapi\\webapi\\obj\\",
+        "outputPath": "H:\\trung\\Git\\task-management-assignment\\task-management\\api\\webapi\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,7 +73,15 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
