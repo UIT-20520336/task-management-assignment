@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBaseUrl: 'https://webapi20241107004245.azurewebsites.net'
+  apiBaseUrl: 'https://webapi20241109180958.azurewebsites.net/api/'
 };

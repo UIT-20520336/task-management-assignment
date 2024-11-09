@@ -7,7 +7,7 @@
   "parameters": {
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": "webapi20241106235513ResourceGroup",
+      "defaultValue": "webapi",
       "metadata": {
         "description": "Name of the resource group for the resource. It is recommended to put resources under same resource group for better tracking."
       }
@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "webapi20241107004245",
+      "defaultValue": "webapi20241109180958",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

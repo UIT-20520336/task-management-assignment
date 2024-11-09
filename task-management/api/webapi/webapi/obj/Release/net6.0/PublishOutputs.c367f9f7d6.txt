@@ -1,6 +1,7 @@
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\webapi.exe
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\global.json
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\webapi.dll
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\webapi.runtimeconfig.json
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\PubTmp\Out\webapi.pdb

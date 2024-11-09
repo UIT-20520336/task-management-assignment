@@ -292,3 +292,4 @@ H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Re
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\webapi.pdb
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\webapi.genruntimeconfig.cache
 H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\obj\Release\net6.0\ref\webapi.dll
+H:\trung\Git\task-management-assignment\task-management\api\webapi\webapi\bin\Release\net6.0\global.json
