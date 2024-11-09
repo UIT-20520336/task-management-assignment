@@ -52,7 +52,7 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
-app.UseCors("AllowAll");
+app.UseCors("AllowVercel");
 
 // Configure the HTTP request pipeline.
     app.UseSwagger();
